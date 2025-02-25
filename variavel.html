@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var, let, const PI</title>
+</head>
+
+<body>
+    <script>
+        var nome = 'Kaique'; // Pode ser redeclarada
+        //nome = 'Lopes';
+        let idade = 18; // Pode ser alterada
+        //idade =20;
+        const PI = 3.14; // Não pode ser alterada
+        //PI = 5.14;
+        document.write(nome, '<br>', idade, '<br>', PI, '<br>');
+
+        let x, y;
+        x = 5;
+        y = 10;
+        let z = x + y;
+        document.write(z, '<br>');
+
+        idade = 20;
+        document.write("OL " + nome + " tem " + idade + " anos. ");
+    </script>
+</body>
+
+</html>
